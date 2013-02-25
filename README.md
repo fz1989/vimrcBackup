@@ -1,4 +1,4 @@
 vimrcBackup
 ===========
 
-vimrc backup
+土土的vimrc备份而已，各位大牛不要看啦~~~~~~~~~~~

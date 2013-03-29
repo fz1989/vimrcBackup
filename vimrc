@@ -24,7 +24,7 @@ set expandtab
 set ai! 
 "缩进的字符个数 
 set cindent shiftwidth=4 
-set autoindent shiftwidth=2 
+set autoindent shiftwidth=4 
  
 ""设置折叠模式 
 "set foldcolumn=4 

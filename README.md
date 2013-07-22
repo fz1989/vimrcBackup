@@ -2,7 +2,7 @@ vimrcbackup
 ===============================================
 
 
-主要是Ubuntu12.04上配置YouCompleteMe(以后简称YCM)的总结，其他的通过安装Vundle和备份vimrc就很好搞定，不多说了。
+主要是Ubuntu12.04上配置YouCompleteMe(以后简称YCM)的总结，主要是参考的[这里][YCM]其他的通过安装Vundle和备份vimrc就很好搞定，不多说了。
 
 安装vim
 ---------------------------------
@@ -91,6 +91,7 @@ Ubuntu上详细的安装可以见这里,[这个][install-llvm-clang]还有libc++
 
 最后，注意下配置那个vimrc的配置就好了，全文收工。
 
+[YCM]: https://github.com/Valloric/YouCompleteMe
 [vundle]: https://github.com/gmarik/vundle#about
 [vim-build]: https://github.com/Valloric/YouCompleteMe/wiki/Building-Vim-from-source
 [install-llvm-clang]:http://solarianprogrammer.com/2013/01/17/building-clang-libcpp-ubuntu-linux/

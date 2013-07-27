@@ -239,6 +239,8 @@ highlight SyntasticErrorSign guifg=white guibg=black
 Bundle 'kevinw/pyflakes-vim'
 let g:pyflakes_use_quickfix = 0
 
+Bundle 'tpope/vim-rails'
+
 "========================== config for plugins end ======================================
 
 "==========================================

@@ -20,7 +20,7 @@ vimrcbackup
 
     Bundle "Valloric/YouCompleteMe"
 
-然后进入vim，运行':BundleInstall',然后就行了(当然YouCompleteMe也是需要这个的，但是折腾的地方主要不在这)
+然后进入vim，运行`:BundleInstall`,然后就行了(当然YouCompleteMe也是需要这个的，但是折腾的地方主要不在这)
 
 安装YCM
 -----------------------------------------

@@ -1,5 +1,4 @@
-vimrcbackup
-===============================================
+#vimrcbackup
 
 
 主要是Ubuntu12.04上配置YouCompleteMe(以后简称YCM)的总结，主要是参考的[这里][YCM],
@@ -8,13 +7,13 @@ vimrcbackup
 
 
 
-#安装vim
+##安装vim
 
 
 首先，这个东西对Vim的版本有要求( Vim 7.3.584及以上)，在apt-get下的vim版本太低，所以需要重新编译vim安装，
 关于这个可以[参考这里][vim-build]，基本照做就行。
 
-#安装Vundle
+##安装Vundle
 
 这个东西是管理vim插件的一个插件。具体办法不用多说，直接上官方[地址][vundle]，注意下vimrc的配置就好，
 用起来非常好使，直接在vimrc添加所需的插件的地方就好，比如我要安装YouCompleteMe那么在vimrc中首先添加:
@@ -23,7 +22,7 @@ vimrcbackup
 
 然后进入vim，运行`:BundleInstall`,然后就行了(当然YouCompleteMe也是需要这个的，但是折腾的地方主要不在这)
 
-#安装ack.vim
+##安装ack.vim
 
 在ubuntu中得首先安装
 
@@ -31,7 +30,7 @@ vimrcbackup
 
 然后用vimrc就行
 
-#安装YCM
+##安装YCM
 
 一般vim插件的安装基本上到上面就基本结束了，但这个要麻烦点，我们得继续安装YCM，主要是编译下ycm_core.
 准备工作:
